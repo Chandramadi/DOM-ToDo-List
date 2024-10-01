@@ -12,8 +12,8 @@ html, body{
 
 .main{
     background-color: rgb(255, 241, 120);
-    width: 900px;
-    height: 400px;
+    width: 700px;
+    height: 350px;
     margin: 0 auto;
     margin-top: 20px;
     display: flex;
@@ -27,12 +27,12 @@ html, body{
 
 h1{
     color: rgb(0, 0, 0);
-    font-size: 80px;
+    font-size: 60px;
 }
 
 .addListDiv{
     height: 25%;
-    width: 90%;
+    width: 85%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,16 +44,16 @@ h1{
 
 #inputList{
     padding: 20px;
-    width: 85%;
+    width: 80%;
     margin-right: 9px;
     border: 2px solid rgb(97, 96, 96);
     border-radius: 10px;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .listButton{
-    padding: 22px 10px 22px 10px;
+    padding: 18px 8px 20px 18px;
     border: 2px solid  rgb(97, 96, 96);
     border-radius: 10px;
     cursor: pointer;
@@ -69,7 +69,7 @@ h1{
 /* task Items */
 #taskItems{
     background-color: rgb(255, 241, 120);
-    width: 70%;
+    width: 80%;
     height: auto;
     margin: auto;
     margin-top: 20px;
@@ -136,13 +136,13 @@ li:hover{
 
 /* Buttons */
 .actionBtns{
-    width: 90%;
+    width: 85%;
     display: flex;
     justify-content: space-around;
 }
 
 .filterBtn{
-    padding: 25px;
+    padding: 20px;
     background-color: rgb(255, 250, 223);
     border: 1px black solid;
     border-radius: 5px;
