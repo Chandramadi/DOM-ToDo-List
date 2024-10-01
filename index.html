@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <h1>TODo Application</h1>
+        <div class="addListDiv">
+            <input type="text" id="inputList" placeholder="Add Your Next List...">
+            <button class="listButton">Submit</button>
+        </div>
+
+        <div class="actionBtns">
+            <button class="filterBtn" data-filter="all">All</button>
+            <button class="filterBtn" data-filter="completed">Completed</button>
+            <button class="filterBtn" data-filter="pending">Pending</button>
+        </div>
+    </div>
+
+    <div id="taskItems">
+        <ul id="tasks">
+            <!-- Tasks items are added here in <li> tag -->
+            <!-- <li> tag contains the task and <div> -->
+            <!-- The <div> inside has three <buttons> -->
+            <!-- <buttons> are <edit> <delete> <completed> -->
+        </ul>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

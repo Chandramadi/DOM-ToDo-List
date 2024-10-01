@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #FFF3CC;
+}
+
+.main{
+    background-color: rgb(255, 241, 120);
+    width: 900px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+}
+
+.addListDiv{
+    height: 25%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    color: red;
+    border: 2px solid rgb(90, 90, 90);
+    border-radius: 10px;
+}
+
+#inputList{
+    padding: 20px;
+    width: 85%;
+    margin-right: 9px;
+    border: 2px solid rgb(97, 96, 96);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.listButton{
+    padding: 22px 10px 22px 10px;
+    border: 2px solid  rgb(97, 96, 96);
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.listButton:hover{
+    background-color: rgb(255, 216, 108);
+}
+
+
+/* task Items */
+#taskItems{
+    background-color: rgb(255, 241, 120);
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+ul{
+    width: 92.7%;
+    height: 100%;
+    margin: 0 30px 0 50px;
+    padding: 10px 0 10px 0;
+}
+
+li{
+    list-style-type: none;
+    background-color: #f1ecec;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    font-weight: 500;
+    font-size: 30px;
+    border-bottom: 1px solid rgb(124, 123, 123);
+    border: 1px black solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+li:hover{
+    background-color: rgb(255, 237, 150);
+}
+
+/* Buttons inside the list */
+.divBtn{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: red; */
+    gap:20px;
+}
+
+.listsBtns{
+    padding:0 10px 0 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.listsBtns:hover{
+    background-color: rgb(255, 216, 108);
+}
+
+.editBtn{
+    background-color: rgb(255, 250, 223);
+}
+
+.deleteBtn{
+    background-color: rgb(255, 250, 223);
+}
+
+.completedBtn{
+    background-color: rgb(255, 250, 223);
+}
+
+/* Buttons */
+.actionBtns{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.filterBtn{
+    padding: 25px;
+    background-color: rgb(255, 250, 223);
+    border: 1px black solid;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.filterBtn:hover{
+    background-color: rgb(255, 216, 108);
+}
